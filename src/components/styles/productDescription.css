@@ -1,0 +1,58 @@
+.description-price-son {
+  display: flex;
+  gap: 10rem;
+  margin-bottom: 3rem;
+}
+.product-section h2 {
+  margin: 0 0 2rem 1rem;
+}
+.description-price-count div section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.description-price-count div section h3 {
+  padding-left: 1rem;
+  font-size: 2.1rem;
+}
+.description-price-count div section span {
+  color: #c7c7c7;
+}
+.product-section-reverse p {
+  margin-bottom: 3rem;
+}
+.description-counter {
+  display: flex;
+}
+.description-counter div {
+  border: 0.1rem solid #dcd9d9;
+  height: 3rem;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.description-counter div:nth-child(2) {
+  padding: 0 2.4rem;
+  cursor: default;
+}
+.description-price-count button {
+  background: #e91e63;
+  width: 100%;
+  padding: 1.5rem;
+  font-size: 1.6rem;
+  color: aliceblue;
+  margin-bottom: 5rem;
+}
+@media (min-width: 750px) {
+  .product-section-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .slider,
+  .product-section {
+    width: 50%;
+    padding: 2rem;
+  }
+}

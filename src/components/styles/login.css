@@ -1,0 +1,61 @@
+.login-cont {
+  width: 90%;
+  max-width: 35rem;
+  box-shadow: 0 2px 16px rgb(0 0 0 / 15%);
+  margin: 10rem auto;
+  padding: 2rem;
+}
+.login-cont h2 {
+  text-align: center;
+}
+.login-cont form {
+  margin-top: 3rem;
+}
+.login-cont form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 2.5rem;
+}
+.login-cont form div label {
+  color: #9d9999;
+}
+.login-cont form div input {
+  border: 0.1rem solid #dcd9d9;
+  padding: 1rem 1.5rem;
+}
+.login-cont form button {
+  width: 100%;
+  padding: 1.1rem 0;
+  background: #e91e63;
+  color: aliceblue;
+  margin: 1rem 0;
+}
+.login-cont form p {
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+.login-cont form p span {
+  color: #2fa8f8;
+  cursor: pointer;
+}
+.user-logged-cont {
+  box-shadow: 0 2px 16px rgb(0 0 0 / 15%);
+  width: 90%;
+  max-width: 40rem;
+  margin: 15rem auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+.user-logged-cont div {
+  height: 10rem;
+  font-size: 10rem;
+}
+.user-logged-cont button {
+  padding: 0.8rem 2rem;
+  background: #e91e63;
+  color: aliceblue;
+  margin-top: 2rem;
+}

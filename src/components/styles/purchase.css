@@ -1,0 +1,55 @@
+.purchases-main-cont {
+  margin: auto;
+  padding: 1.4rem 2rem;
+}
+.purchases-cont {
+  margin: 3rem auto 0;
+}
+.purchaseCard-cont {
+  border: 0.2rem solid #bab2b2;
+  border-radius: 0.6rem;
+  margin-bottom: 2rem;
+}
+.purchaseCard-cont div ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 1rem 1rem 1rem;
+}
+.purchaseCard-cont div ul li h4 {
+  width: 60%;
+  font-size: 1.2rem;
+}
+.purchase-quan {
+  border: 0.1rem solid #bab2b2;
+  padding: 0.5rem 0;
+  width: 15% !important;
+}
+.purchaseCard-cont div ul li span {
+  text-align: center;
+  /* flex: 1 1; */
+  width: 15%;
+  font-size: 1.2rem;
+}
+
+.purchaseCard-header {
+  padding: 2rem 3rem;
+  border-bottom: 0.2rem solid #bab2b2;
+}
+
+@media (min-width: 650px) {
+  .purchaseCard-cont div ul li h4 {
+    font-size: 1.6rem;
+  }
+  .purchaseCard-cont div ul li span {
+    font-size: 1.6rem;
+  }
+  .purchase-quan {
+    width: 8% !important;
+  }
+}
+@media (min-width: 1000px) {
+  .purchases-main-cont {
+    max-width: 100rem;
+  }
+}

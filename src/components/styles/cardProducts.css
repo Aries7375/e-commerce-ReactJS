@@ -1,0 +1,77 @@
+.products-cont {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 5rem 0 7rem;
+}
+.card-product {
+  width: 100%;
+  max-width: 27rem;
+  border: 0.1rem solid #e91e63;
+  cursor: pointer;
+  transition: transform 200ms ease;
+  border-radius: 1rem;
+}
+.card-product:hover {
+  transform: scale(1.05);
+}
+.card-header {
+  width: 100%;
+  aspect-ratio: 1.2;
+  border-bottom: 0.1rem solid #ccc;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-header img {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+  position: absolute;
+  transition: opacity 500ms ease;
+}
+.card-header-img:nth-child(2) {
+  opacity: 0;
+}
+.card-header-img:nth-child(1) {
+  opacity: 1;
+}
+
+.card-header:hover .card-header-img:nth-child(2) {
+  opacity: 1;
+}
+.card-header:hover .card-header-img:nth-child(1) {
+  opacity: 0;
+}
+
+.card-info {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 2.5rem;
+}
+.card-product h3 {
+  font-size: 2rem;
+  font-weight: 500;
+  grid-column: 1 / 3;
+  text-align: center;
+}
+.card-price span {
+  color: #ccc;
+}
+.card-price h4 {
+  font-size: 2rem;
+  margin: 0.5rem 0.3rem;
+}
+.card-product button {
+  background: #f85555;
+  width: 4.5rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  color: white;
+  font-size: 2.2rem;
+  margin-left: auto;
+  padding: 0.5rem 0.2rem 0 0;
+}
