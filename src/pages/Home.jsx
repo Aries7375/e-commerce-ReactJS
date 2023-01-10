@@ -9,6 +9,7 @@ import useComerse from "../hook/useComerse";
 import { setProductsGlobal } from "../store/slices/products.slices";
 
 const Home = () => {
+  const { open1, open2, setOpen1, setOpen2 } = useComerse();
   const { products } = useSelector((state) => state);
   const allProductsFilter = useSelector((state) => state.products);
   const [close, setClose] = useState(true);
@@ -40,7 +41,7 @@ const Home = () => {
   }, [products]);
   const filterPriceCallBack = (pro) =>
     Number(pro.price) >= inputPrice.from && Number(pro.price) <= inputPrice.to;
-  const { open1, open2, setOpen1, setOpen2 } = useComerse();
+
   return (
     <div className="home">
       <aside>

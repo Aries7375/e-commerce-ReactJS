@@ -20,7 +20,6 @@ const Cart = () => {
     axios
       .post(URL, data, getConfig())
       .then((res) => {
-        console.log(res.data);
         dispatch(getUserCart());
       })
       .catch((err) => console.log(err));

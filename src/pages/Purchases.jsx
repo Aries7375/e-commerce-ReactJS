@@ -12,7 +12,6 @@ const Purchases = () => {
       .then((res) => setPurchasesList(res.data.data.purchases))
       .catch((err) => console.log(err));
   }, []);
-  console.log(purchasesList);
   return (
     <section className="purchases-main-cont">
       <div className="route">

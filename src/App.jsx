@@ -9,6 +9,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import ProductInfo from "./pages/ProductInfo";
 import Purchases from "./pages/Purchases";
+import SignUp from "./pages/SignUp";
 import { getUserCart } from "./store/slices/cart.slice";
 import { getAllProducts } from "./store/slices/products.slices";
 
@@ -64,6 +65,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/signUp" element={<SignUp />} />
         <Route element={<ProComponents />}>
           <Route path="/cart" element={<Cart />} />
           <Route path="/purchases" element={<Purchases />} />

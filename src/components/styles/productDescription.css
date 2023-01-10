@@ -12,7 +12,6 @@
   gap: 0.5rem;
 }
 .description-price-count div section h3 {
-  padding-left: 1rem;
   font-size: 2.1rem;
 }
 .description-price-count div section span {
@@ -32,6 +31,7 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  border-radius: 0.3rem;
 }
 .description-counter div:nth-child(2) {
   padding: 0 2.4rem;
@@ -44,6 +44,7 @@
   font-size: 1.6rem;
   color: aliceblue;
   margin-bottom: 5rem;
+  border-radius: 0.3rem;
 }
 @media (min-width: 750px) {
   .product-section-reverse {

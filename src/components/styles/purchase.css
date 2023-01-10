@@ -2,13 +2,20 @@
   margin: auto;
   padding: 1.4rem 2rem;
 }
+.purchases-main-cont h2 {
+  font-size: 3rem;
+  color: #e91e63;
+}
 .purchases-cont {
   margin: 3rem auto 0;
 }
 .purchaseCard-cont {
-  border: 0.2rem solid #bab2b2;
-  border-radius: 0.6rem;
+  border: 0.2rem solid #e91e63;
+  border-radius: 1rem;
   margin-bottom: 2rem;
+}
+.purchaseCard-cont div {
+  min-height: 4rem;
 }
 .purchaseCard-cont div ul li {
   display: flex;
@@ -19,11 +26,13 @@
 .purchaseCard-cont div ul li h4 {
   width: 60%;
   font-size: 1.2rem;
+  font-weight: 400;
 }
 .purchase-quan {
-  border: 0.1rem solid #bab2b2;
+  border: 0.1rem solid #e91e63;
   padding: 0.5rem 0;
   width: 15% !important;
+  border-radius: 0.4rem;
 }
 .purchaseCard-cont div ul li span {
   text-align: center;
@@ -34,7 +43,7 @@
 
 .purchaseCard-header {
   padding: 2rem 3rem;
-  border-bottom: 0.2rem solid #bab2b2;
+  border-bottom: 0.2rem solid #e91e63;
 }
 
 @media (min-width: 650px) {

@@ -94,6 +94,11 @@
 .filter-category-info ul li {
   margin: 0 0 1.5rem 2rem;
   font-size: 1.6rem;
+  cursor: pointer;
+  width: max-content;
+}
+.filter-category-info ul li:hover {
+  color: #e91e63;
 }
 .filter-category-info ul li button {
   background: none;

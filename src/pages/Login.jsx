@@ -12,7 +12,6 @@ const Login = () => {
     axios
       .post(URL, data)
       .then((res) => {
-        console.log(res.data.data.user.firstName);
         localStorage.setItem("firstName", res.data.data.user.firstName);
         localStorage.setItem("lastName", res.data.data.user.lastName);
         localStorage.setItem("token", res.data.data.token);
@@ -73,7 +72,8 @@ const Login = () => {
         </div>
         <button>Login</button>
         <p>
-          Don't have an account? <span>Sign up</span>
+          Don't have an account?{" "}
+          <span onClick={() => navigate("/signUp")}>Sign up</span>
         </p>
       </form>
     </div>
