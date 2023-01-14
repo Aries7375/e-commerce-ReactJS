@@ -31,6 +31,9 @@ button {
   font-family: inherit;
   cursor: pointer;
 }
+input {
+  outline: none;
+}
 .header-main {
   height: 7rem;
 }
