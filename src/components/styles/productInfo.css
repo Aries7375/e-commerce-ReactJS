@@ -20,7 +20,7 @@
 } */
 .product-section {
   flex: 1 1;
-  min-width: 35rem;
+  min-width: 28rem;
   padding: 2rem;
 }
 .productInfo-arrow {
@@ -90,5 +90,13 @@
 @media (min-width: 1300px) {
   .productInfo-cont {
     max-width: 1250px;
+  }
+}
+@media (max-width: 327px) {
+  .productInfo-cont {
+    padding: 0;
+  }
+  .similar-products-cont {
+    padding: 0 2rem;
   }
 }

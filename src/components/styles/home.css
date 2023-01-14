@@ -153,3 +153,8 @@ aside {
     transform: translateX(500%);
   }
 }
+@media (max-width: 300px) {
+  .filter-menu {
+    width: 28rem;
+  }
+}

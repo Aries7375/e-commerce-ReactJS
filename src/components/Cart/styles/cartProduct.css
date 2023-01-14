@@ -75,3 +75,8 @@
     padding: 3rem 5rem;
   }
 }
+@media (max-width: 330px) {
+  .cart-footer {
+    gap: 15rem;
+  }
+}

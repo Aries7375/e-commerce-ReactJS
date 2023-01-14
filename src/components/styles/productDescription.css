@@ -57,3 +57,16 @@
     padding: 2rem;
   }
 }
+@media (max-width: 350px) {
+  .description-price-son {
+    justify-content: center;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 350px) and (max-width: 385px) {
+  .description-price-son {
+    gap: 6rem;
+    justify-content: center;
+  }
+}

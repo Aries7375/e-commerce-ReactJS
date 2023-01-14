@@ -75,3 +75,9 @@
   margin-left: auto;
   padding: 0.5rem 0.2rem 0 0;
 }
+
+@media (max-width: 300px) {
+  .products-cont {
+    padding: 5rem 2rem 7rem;
+  }
+}
