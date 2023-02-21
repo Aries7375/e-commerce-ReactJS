@@ -16,7 +16,9 @@ const PurchaseCard = ({ purchase }) => {
               <span className="purchase-quan">
                 {product.productsInCart.quantity}
               </span>
-              <span>$ {product.price * product.productsInCart.quantity}</span>
+              <span>
+                $ {Math.ceil(product.price * product.productsInCart.quantity)}
+              </span>
             </li>
           ))}
         </ul>
